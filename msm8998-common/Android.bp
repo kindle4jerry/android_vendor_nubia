@@ -80,9 +80,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PowerOffAlarm",
+	name: "uceShimService",
 	owner: "nubia",
-	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
+	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -91,9 +91,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
+	name: "PowerOffAlarm",
 	owner: "nubia",
-	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
